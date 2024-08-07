@@ -41,7 +41,7 @@ public class TestDataCollection {
                 // Including only the words that contains:
                 //                          ि   : for reordering issue
                 //                          ्   : for composite formation issues
-                //                          /   : some dictionary entry contained '/' e.g.अठपरिया/अठपरी/अठपरे
+                //                          /   : some dictionary entry contained '/' e.g. out of
                 if (!line.contains(" ") && !line.contains("/")&& (line.contains("्") | line.contains("ि"))) {
                     wordlist.add(line);
                 }
