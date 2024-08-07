@@ -23,15 +23,15 @@ public class SampleWordsTokenization {
 
         UnicodeCharacterTokenizer tokenizer;
 
-//        for(String word: words){
-//            tokenizer = new UnicodeCharacterTokenizer(word);
-//            String result = tokenizer.GetGroupedCharacters().toString();
-//            System.out.println("\n"+ word + " : " + result);
-//        }
-        String word ="सिञ्जा";
-        tokenizer = new UnicodeCharacterTokenizer(word);
-        String result = tokenizer.GetGroupedCharacters().toString();
-        System.out.println("\n"+ word + " : " + result);
+        for(String word: words){
+            tokenizer = new UnicodeCharacterTokenizer(word);
+            String result = tokenizer.GetGroupedCharacters().toString();
+            System.out.println("\n"+ word + " : " + result);
+        }
+//        String word ="सिञ्जा";
+//        tokenizer = new UnicodeCharacterTokenizer(word);
+//        String result = tokenizer.GetGroupedCharacters().toString();
+//        System.out.println("\n"+ word + " : " + result);
 
 
     }
